@@ -1,4 +1,4 @@
-## .NET Core
+﻿## .NET Core
 **/bin/
 **/obj/
 **/.vs/
@@ -42,8 +42,9 @@ $RECYCLE.BIN/
 
 ## CRITICAL: Explicitly ALLOW Word Documents & Demo Videos
 !*.docx
-!videos/**
-!videos/*
+# Videos larger than 100MB cannot be pushed to standard GitHub
+videos/*.mp4
+*.mp4
 !*.html
 
 ## Keep client bundles in wwwroot
