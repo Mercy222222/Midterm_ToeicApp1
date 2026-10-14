@@ -7,8 +7,8 @@
 
 ## 👨‍🎓 THÔNG TIN SINH VIÊN
 
-* **Họ và tên**: **Nguyễn Hồng Ân**
-* **Mã số sinh viên (MSSV)**: **2380600099**
+* **Họ và tên**: **Võ Hữu Trí**
+* **Mã số sinh viên (MSSV)**: **2380602326**
 * **Lớp**: **23DTHC7**
 * **Link Thiết kế Giao diện Figma**: [Xem Thiết kế Figma tại đây](https://www.figma.com/design/HYWMDWnYFypKKMnjnileHJ/Untitled?node-id=0-1&t=Fto0y1a4s9yoCBeR-1)
 
@@ -43,12 +43,12 @@ Midterm_ToeicApp/
 │   ├── Giao diện Admin Import đề thi 3.mp4 # Video demo Xem trước & Sửa câu hỏi/bài đọc
 │   ├── Giao diện Users.mp4                 # Video demo Luyện thi và nộp bài trên Flutter
 │   └── Sơ đồ database.mp4                  # Video thuyết minh Sơ đồ Cơ sở Dữ liệu
-│
-├── BaoCao-PhanTanPhat-2380600099.docx       # File Word Báo cáo đồ án giữa kỳ chính thức
-├── Database_ER_Diagram.html                # Sơ đồ Cơ sở Dữ liệu Quan hệ ER Diagram (Tương tác SVG)
-├── DeThi_TOEIC_Reading_Test05_Tagged.docx  # File Word đề thi Test 05 chuẩn 100 câu có gắn thẻ Tags
-├── DeThi_TOEIC_Loi_DinhDang.docx           # File Word mẫu cố tình sai định dạng để test kiểm duyệt
-└── .gitignore                              # Cấu hình Git an toàn (loại bỏ thư mục build/cache)
+├── BaoCao-VoHuuTri-2380602326.docx       # File Word Báo cáo đồ án giữa kỳ chính thức (Sinh viên: Võ Hữu Trí)
+├── Database_ER_Diagram.html              # Sơ đồ Cơ sở Dữ liệu Quan hệ ER Diagram (Tương tác SVG)
+├── DeThi_TOEIC_Reading_Test02_Tagged.docx # File Word đề thi ETS Test 02 chuẩn 100 câu có gắn thẻ Tags
+├── DeThi_TOEIC_Reading_Test08_Tagged.docx # File Word đề thi ETS Test 08 chuẩn 100 câu có gắn thẻ Tags
+├── DeThi_TOEIC_Loi_DinhDang.docx         # File Word mẫu cố tình sai định dạng để test kiểm duyệt
+└── .gitignore                            # Cấu hình Git an toàn (loại bỏ thư mục build/cache)
 ```
 
 ---

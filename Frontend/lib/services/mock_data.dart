@@ -5,13 +5,23 @@ class MockExamData {
   static List<ExamListItem> getMockExamList() {
     return [
       ExamListItem(
+        id: 2,
+        title: 'ETS TOEIC Reading Actual Test 02',
+        durationMinutes: 75,
+        totalQuestions: 100,
+        description: 'Đề thi chuẩn ETS TOEIC Reading Test 02 mới cập nhật (Part 5, 6, 7)',
+        isPublished: true,
+        creationTime: DateTime.now(),
+        partCount: 3,
+      ),
+      ExamListItem(
         id: 8,
         title: 'ETS TOEIC Reading Actual Test 08',
         durationMinutes: 75,
         totalQuestions: 100,
         description: 'Đề thi chuẩn ETS TOEIC Reading Test 08 mới cập nhật (Part 5, 6, 7)',
         isPublished: true,
-        creationTime: DateTime.now(),
+        creationTime: DateTime.now().subtract(const Duration(hours: 2)),
         partCount: 3,
       ),
       ExamListItem(
@@ -22,16 +32,6 @@ class MockExamData {
         description: 'Đề thi chuẩn TOEIC Reading format mới 2026 (Part 5, 6, 7)',
         isPublished: true,
         creationTime: DateTime.now().subtract(const Duration(days: 1)),
-        partCount: 3,
-      ),
-      ExamListItem(
-        id: 2,
-        title: 'ETS TOEIC Reading Real Exam 01',
-        durationMinutes: 75,
-        totalQuestions: 100,
-        description: 'Đề luyện thi cấp tốc sát đề thi thật tại IIG Vietnam',
-        isPublished: true,
-        creationTime: DateTime.now().subtract(const Duration(days: 3)),
         partCount: 3,
       ),
     ];
